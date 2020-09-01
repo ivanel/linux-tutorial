@@ -2,14 +2,14 @@ runtime:
   cache_dir: ./.cache/antora
 
 site:
-  title: Template Tutorial
-  url: https://redhat-scholars.github.io/course-template
+  title: Linux Tutorial
+  url: https://redhat-scholars.github.io/linux-tutorial
 
 content:
   sources:
     - url: ./
       start_path: documentation
-      start_page: template-tutorial::index.adoc
+      start_page: linux-tutorial::index.adoc
 
 asciidoc:
   attributes:
